@@ -1,19 +1,23 @@
 //
 //  ViewController.swift
-//  Music Player Test
+//  MyMusicPlayer
 //
-//  Created by 장영우 on 2021/07/04.
+//  Created by yagom
+//  Copyright © 2017년 yagom. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @UIOutlet var button: UIButton?
+    
+    // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//        self.addViewsWithCode()
+        self.initializePlayer()
     }
-
 
 }
 
